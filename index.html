@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tarea 1 - Informática Teórica</title>
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!--Import materialize.css-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<main>
+			<section class="wrapper-section z-depth-2">
+				<div>
+					<div class="wrapper-title-input">
+						<h2 class="title">Algorítmo CYK</h2>
+						<h3 class="sub-title">
+							Taller 2 - Informática teórica
+						</h3>
+					</div>
+					<div class="wrapper-input">
+						<div class="row">
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s12">
+										<textarea
+											id="gramatica"
+											class="materialize-textarea"
+										></textarea>
+										<label for="gramatica">Grámatica</label>
+									</div>
+								</div>
+							</form>
+						</div>
+
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="word" type="text" class="validate" />
+								<label for="word">Palabra</label>
+								<span
+									class="helper-text"
+									data-error="Equivocado"
+									data-success="Correcto"
+									>Palabra para validar si está o no en la
+									gramática.</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div></div>
+
+				<div id="wrapper-btns">
+					<button
+						id="id-start-gramatica"
+						class="btn waves-effect waves-light purple"
+						type="button"
+					>
+						Validar
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Resultado</h4>
+				<p id="result"></p>
+			</div>
+			<div class="modal-footer">
+				<a
+					href="#!"
+					class="modal-close waves-effect waves-green btn-flat"
+					>Agree</a
+				>
+			</div>
+		</div>
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="Cyk.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
