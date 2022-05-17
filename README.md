@@ -2,6 +2,9 @@
 
 #### [Link app](https://felipegarcial.github.io/p2_infoteorica/)
 
+#### [Video explicativo](https://youtu.be/U_osmUgQEjs)
+
+
 ### Instrucciones:
 
 1. En el primer textbox debe ingresar la gramática.
