@@ -12,10 +12,12 @@
 ### Ejemplo
 
 1. Ingresar en la gramatica:
-   S->AB|BC
-   A->BA|0
-   B->CC|1
-   C->AB|0
+```
+S->AB|BC
+A->BA|0
+B->CC|1
+C->AB|0
+```
 
 2. Ingresar en la palabra
    0010
